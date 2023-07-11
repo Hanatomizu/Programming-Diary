@@ -2,7 +2,7 @@
 
 ---
 
-### 原题链接：[Leetcode - 轮转数组](https://leetcode.cn/problems/rotate-array/)
+## 原题链接：[Leetcode - 轮转数组](https://leetcode.cn/problems/rotate-array/)
 
 难度：<span style="color:yellow;">中等</span>
 
@@ -19,9 +19,9 @@
 
 ---
 
-### 临时数组法
+## 临时数组法
 
-#### 原理：定义数组 `temp` 来储存轮转后的数组
+### 原理：定义数组 `temp` 来储存轮转后的数组
 
 毋庸置疑地定义一个数组 `temp` 来储存，因为数组不需要添加或删除值，新的数组和 `nums` 相等，即 `nums.size()`。
 
@@ -59,7 +59,7 @@ nums.assign(temp.begin(), temp.end());
 
 <br>
 
-#### 总体代码如下
+### 总体代码如下
 
 ```cpp
 class Solution{
@@ -77,4 +77,4 @@ public:
 
 ---
 
-### To be continued.
+## To be continued.

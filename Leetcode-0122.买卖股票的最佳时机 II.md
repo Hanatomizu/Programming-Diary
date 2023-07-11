@@ -2,7 +2,7 @@
 
 ---
 
-### 原题链接：[Leetcode - 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
+## 原题链接：[Leetcode - 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
 
 难度：**<span style="color:yellow">中等</span>**
 
@@ -32,7 +32,9 @@
 
 ---
 
-### 暴力破解
+## 暴力破解
+
+<br>
 
 因为题目并没有规定一天只能进行一次买卖，所以有利可图就买，收集所有上坡的利益。那就一个 `for` 循环可以解决。
 
@@ -58,4 +60,4 @@ public:
 
 ---
 
-### To be continued.
+## To be continued.

@@ -1,4 +1,7 @@
+
+
 # Leetcode 0217.存在重复元素
+
 ---
 
 ## 原题链接：[Leetcode - 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)
@@ -13,7 +16,7 @@
 
 ### 示例
 
-> 输入：**nums = [1,2,3,1]**
+> 输入：**nums = [1,2,3,1]**  
 > 输出：**true**
 
 <br>
@@ -143,4 +146,14 @@ public:
 
 ---
 
-# Thanks for Reading
+## 分析小结
+
+<br>
+
+- 排序法主要送分，因为你不需要手动写一个排序的函数。 ~~但是你可以写一个呀。~~ 缺点就是速度慢
+- 哈希表法，速度非常快，只需要遍历一边列表即可。
+
+
+---
+
+## Thanks for Reading
